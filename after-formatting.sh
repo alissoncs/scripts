@@ -42,6 +42,8 @@ sudo apt-get install -y easytag
 echo "|?| easytag"
 
 #ffmpeg conversão de audio
+sudo add-apt-repository ppa:mc3man/trusty-media 
+sudo apt-get update
 sudo apt-get -y install ffmpeg
 echo "|?| ffmpeg"
 
