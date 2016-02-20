@@ -78,10 +78,17 @@ echo "|?| sublime"
 sudo apt-get install -y vim
 echo "|?| vim"
 
+# nodejs
+curl -sL https://deb.nodesource.com/setup | sudo bash -
 sudo apt-get install -y nodejs
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo apt-get install -y npm
+sudo npm -g install npm@latest
 echo "|?| node & npm"
+
+# grunt, gulp, bower
+sudo npm install -g bower grunt gulp http-server livereload
+echo "|?| gulp, grunt, bower, http-server
 
 #dropbox
 wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb -P /tmp/
