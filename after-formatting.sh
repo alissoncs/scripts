@@ -92,6 +92,10 @@ echo "|?| audacity";
 sudo apt-get install openjdk-8-jdk openjdk-8-jre
 echo "|?| open jdk";
 
+# samba
+sudo apt-get install -y samba
+echo "|?| samba"
+
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install -y oracle-java8-installer
@@ -123,6 +127,17 @@ echo "export EDITOR=/usr/bin/vim" >> ~/.bashrc
 source ~/.bashrc
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/vim 100
 echo "|&| vim configured"
+
+# smb conf
+echo "Insert smbpassword: "
+sudo smbpasswd -a alisson
+echo "
+	[Projects]
+	path = /home/alisson/projects
+	valid users = alisson
+	read only = no
+" | sudo tee /etc/samba/smb.conf
+sudo service smbd restart
 
 sudo apt-get update
 sudo apt-get autoremove
