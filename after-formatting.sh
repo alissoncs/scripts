@@ -108,6 +108,11 @@ echo "|?| oracle jdk";
 sudo apt-get install -y gnome-system-monitor
 echo "|?| system monitor"
 
+# youtube-dl
+sudo curl https://yt-dl.org/downloads/2016.02.13/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+echo "|?| youtube-dl"
+
 # cria pasta de projetos
 mkdir ~/projects
 echo "alias projects='cd ~/projects'" >> ~/.bashrc
