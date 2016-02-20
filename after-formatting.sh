@@ -139,5 +139,26 @@ echo "
 " | sudo tee /etc/samba/smb.conf
 sudo service smbd restart
 
+# vim config
+[ -d ~/.vim ] || mkdir ~/.vim
+[ -d ~/.vim/colors ] || mkdir ~/.vim/colors
+[ -d ~/.vim/bundle ] || mkdir ~/.vim/bundle
+wget -O ~/.vim/colors/xoria256.vim http://www.vim.org/scripts/download_script.php?src_id=23975
+touch ~/.vimrc
+echo "
+	set nocompatible   \" Disable vi-compatibility
+	set t_Co=256
+	colorscheme xoria256
+	syntax on
+
+	set linespace=15
+	set showmode
+	set autoindent
+	set copyindent
+	set ignorecase
+	set mouse=a
+	set number
+" | sudo tee ~/.vimrc
+
 sudo apt-get update
 sudo apt-get autoremove
