@@ -4,6 +4,27 @@ My custom and personal script
 ### after-formatting.sh
 It'll install and make the following items:
 
-- ffmpeg
-- spotify
 - vagrant & virtualbox
+- wget & curl
+- nvidia prime for ubuntu
+- spotify-client
+- chrome
+- easytag
+- git
+- ffmpeg
+- libtmp android
+- gimp
+- filezilla
+- vlc player
+- deadbeef player
+- sublime-text-3
+- vim
+- node & npm
+- node apps: grunt, gulp, bower, http-server, livereload
+- dropbox
+- audacity
+- open jdk
+- oracle jdk
+- samba
+- system monitor
+- youtube-dl
