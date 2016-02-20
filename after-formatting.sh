@@ -90,9 +90,9 @@ echo "|?| node & npm"
 sudo npm install -g bower grunt gulp http-server livereload
 echo "|?| gulp, grunt, bower, http-server
 
-#dropbox
-wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb -P /tmp/
-sudo dpkg -i /tmp/dropbox_2015.10.28_amd64.deb
+# dropbox
+wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb -O /tmp/dropbox.deb
+sudo dpkg -i /tmp/dropbox.deb
 echo "|?| dropbox";
 
 sudo apt-get install -y audacity
