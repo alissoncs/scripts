@@ -87,7 +87,7 @@ sudo npm -g install npm@latest
 echo "|?| node & npm"
 
 # grunt, gulp, bower
-sudo npm install -g bower grunt gulp http-server livereload
+sudo npm install -g bower grunt gulp http-server livereload nodemon
 echo "|?| gulp, grunt, bower, http-server
 
 # dropbox
