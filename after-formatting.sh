@@ -11,11 +11,6 @@ sudo add-apt-repository ppa:xorg-edgers/ppa -y
 sudo apt-get update
 sudo apt-get install -y nvidia-current nvidia-prime
 
-# skype 
-sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-sudo apt-get update
-sudo apt-get install y skype
-
 # spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
@@ -109,7 +104,7 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install -y oracle-java8-installer
 sudo update-java-alternatives -s java-8-oracles
-udo apt-get install -y oracle-java8-set-default
+sudo apt-get install -y oracle-java8-set-default
 echo "|?| oracle jdk";
 
 sudo apt-get install -y gnome-system-monitor
