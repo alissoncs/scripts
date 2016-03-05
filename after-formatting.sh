@@ -176,3 +176,7 @@ echo "
 
 sudo apt-get update
 sudo apt-get autoremove
+
+# vagrant box
+vagrant box add ubuntu/trusty64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
+
