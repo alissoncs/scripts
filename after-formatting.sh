@@ -115,6 +115,18 @@ sudo curl https://yt-dl.org/downloads/2016.02.13/youtube-dl -o /usr/local/bin/yo
 sudo chmod a+rx /usr/local/bin/youtube-dl
 echo "|?| youtube-dl"
 
+# phpunit
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+sudo mv phpunit.phar /usr/local/bin/phpunit
+phpunit --version
+echo "|?| phpunit"
+
+# composer
+wget https://getcomposer.org/composer.phar
+chmod +x composer.phar
+sudo mv composer.phar /usr/local/bin/composer
+
 # cria pasta de projetos
 mkdir ~/projects
 echo "alias projects='cd ~/projects'" >> ~/.bashrc
