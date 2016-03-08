@@ -28,3 +28,5 @@ It'll install and make the following items:
 - samba
 - system monitor
 - youtube-dl
+- vagrant box ubuntu/trusty64
+- composer & phpunit
