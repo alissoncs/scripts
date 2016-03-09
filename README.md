@@ -29,4 +29,5 @@ It'll install and make the following items:
 - system monitor
 - youtube-dl
 - vagrant box ubuntu/trusty64
+- php7
 - composer & phpunit

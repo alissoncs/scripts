@@ -115,6 +115,13 @@ sudo curl https://yt-dl.org/downloads/2016.02.13/youtube-dl -o /usr/local/bin/yo
 sudo chmod a+rx /usr/local/bin/youtube-dl
 echo "|?| youtube-dl"
 
+# php 7
+sudo apt-get install -y language-pack-en-base
+sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php7.0
+php -v
+
 # phpunit
 wget https://phar.phpunit.de/phpunit.phar
 chmod +x phpunit.phar
