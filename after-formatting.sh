@@ -88,6 +88,10 @@ echo "|?| gulp, grunt, bower, http-server
 # dropbox
 wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb -O /tmp/dropbox.deb
 sudo dpkg -i /tmp/dropbox.deb
+rm -rf /tmp/dropbox.deb
+# dropbox client
+sudo wget -O /usr/local/bin/dropbox "https://www.dropbox.com/download?dl=packages/dropbox.py"
+sudo chmod +x /usr/local/bin/dropbox
 echo "|?| dropbox";
 
 sudo apt-get install -y audacity
