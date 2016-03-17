@@ -63,6 +63,12 @@ sudo apt-get update
 sudo apt-get install -y deadbeef
 echo "|?| deadbeef"
 
+# libreoffice
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update -y
+sudo apt-get install -ydd libreoffice
+echo "|?| libreoffice"
+
 # sublime 
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
