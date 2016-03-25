@@ -1,5 +1,6 @@
 # scripts
 My custom and personal script
+It works only in **Ubuntu 14+**
 
 ### after-formatting.sh
 It'll install and make the following items:
