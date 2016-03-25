@@ -32,11 +32,6 @@ echo "|?| vagrant & virtualbox"
 sudo apt-get install -y git
 echo "|?| git"
 
-# libre office
-sudo add-apt-repository ppa:libreoffice/ppa
-sudo apt-get update
-sudo apt-get install -ydd libreoffice
-
 # easy tag
 sudo apt-get install -y easytag
 echo "|?| easytag"
