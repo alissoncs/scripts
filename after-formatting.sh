@@ -32,6 +32,11 @@ echo "|?| vagrant & virtualbox"
 sudo apt-get install -y git
 echo "|?| git"
 
+# libre office
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update
+sudo apt-get install -ydd libreoffice
+
 # easy tag
 sudo apt-get install -y easytag
 echo "|?| easytag"
@@ -83,7 +88,11 @@ echo "|?| node & npm"
 
 # grunt, gulp, bower
 sudo npm install -g bower grunt gulp http-server livereload nodemon
-echo "|?| gulp, grunt, bower, http-server
+echo "|?| gulp, grunt, bower, http-server"
+
+# atom
+wget -O /tmp/atom.deb https://atom.io/download/deb
+sudo dpkg -i /tmp/atom.deb
 
 # dropbox
 wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb -O /tmp/dropbox.deb
