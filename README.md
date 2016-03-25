@@ -17,6 +17,7 @@ It'll install and make the following items:
 - filezilla
 - vlc player
 - deadbeef player
+- libreoffice 5
 - sublime-text-3
 - vim
 - node & npm
