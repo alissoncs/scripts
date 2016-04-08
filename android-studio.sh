@@ -1,7 +1,9 @@
 
 # installation of android studio
 
-wget https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip -P /tmp/
+URL="https://dl.google.com/dl/android/studio/ide-zips/2.0.0.20/android-studio-ide-143.2739321-linux.zip"
+
+wget "${URL}" -P /tmp/
 [ -f /tmp/android-studio-ide-*-linux.zip ] && unzip /tmp/android-studio-ide-*-linux.zip
 rm -rf /tmp/android-studio-ide-*-linux.zip
 sudo mv /tmp/android-studio /opt/android-studio
