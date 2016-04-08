@@ -35,4 +35,4 @@ It'll install and make the following items:
 - composer & phpunit
 
 ### Franz
-[Website](http://meetfranz.com)
+[Website](http://meetfranz.com){:target="_blank"}
