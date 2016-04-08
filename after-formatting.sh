@@ -37,7 +37,7 @@ sudo apt-get install -y easytag
 echo "|?| easytag"
 
 #ffmpeg conversão de audio
-sudo add-apt-repository ppa:mc3man/trusty-media 
+sudo add-apt-repository ppa:mc3man/trusty-media
 sudo apt-get update
 sudo apt-get -y install ffmpeg
 echo "|?| ffmpeg"
@@ -69,7 +69,7 @@ sudo apt-get update -y
 sudo apt-get install -ydd libreoffice
 echo "|?| libreoffice"
 
-# sublime 
+# sublime
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install -y sublime-text-installer
@@ -133,7 +133,7 @@ echo "|?| youtube-dl"
 sudo apt-get install -y language-pack-en-base
 sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php7.0
+sudo apt-get install -y php7.0-cli php7.0-dom php7.0-dev php7.0-fpm
 php -v
 
 # phpunit
@@ -207,4 +207,3 @@ sudo apt-get autoremove
 
 # vagrant box
 vagrant box add ubuntu/trusty64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
-
