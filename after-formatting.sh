@@ -117,7 +117,7 @@ echo "|?| samba"
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install -y oracle-java8-installer
-sudo update-java-alternatives -s java-8-oracles
+sudo update-java-alternatives -s java-8-oracle
 sudo apt-get install -y oracle-java8-set-default
 echo "|?| oracle jdk";
 
